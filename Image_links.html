@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, section {
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #f2f2f2;
+    
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin-right: 10px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 20px;
+        }
+        .grid img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to our Website</h1>
+</header>
+
+<nav>
+
+  <b><a href="#home">Home</a> |
+    <a href="#gallery">Gallery</a> |
+    <a href="#menu">Menu</a>
+</b>
+</nav>
+
+<section id="home">
+    <h2>Home</h2>
+    <p>Welcome to our website! Explore our gallery of images and menu items below.</p>
+    <a href="https://images.pexels.com/photos/336232/pexels-photo-336232.jpeg?auto=compress&cs=tinysrgb&w=600"><img src="drone.jpg" alt="Technology" width="500" height="500"></a>
+</section>
+
+<section id="gallery">
+    <h2>Gallery</h2>
+    <div class="grid">
+        <a href="https://images.pexels.com/photos/321552/pexels-photo-321552.jpeg?cs=srgb&dl=pexels-oleksandr-p-321552.jpg&fm=jpg&_gl=1*1c9hkor*_ga*MTg0MzU0MDAyLjE3MDg5MzU4NTI.*_ga_8JE65Q40S6*MTcxMDMzMTM4Mi4zLjEuMTcxMDMzMjY0OC4wLjAuMA.."><img src="Monkey.jpg" alt="Smiling brown monkey"widhth="300"height="300"></a>
+        <a href="https://images.pexels.com/photos/15286/pexels-photo.jpg?cs=srgb&dl=pexels-luis-del-r%C3%ADo-15286.jpg&fm=jpg&w=2500&h=1667&_gl=1*5zocsm*_ga*MTg0MzU0MDAyLjE3MDg5MzU4NTI.*_ga_8JE65Q40S6*MTcxMDMzMTM4Mi4zLjEuMTcxMDMzNDAxMS4wLjAuMA.."><img src="Trees.jpg" alt="Image of trees"width="200"height="10"></a>
+    </div>
+</section>
+
+<section id="menu">
+    <h2>Menu</h2>
+    <ul>
+        <li><a href="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"><img src="Pancakes.jpg" alt="pancakes" widhth="300" height="500"></a>Pancakes</li><br>
+        <li><a href="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"><img src="Burger.jpg" alt="Burger with Fries"width="800"height="500"></a> Burger with fries</li>
+    </ul>
+</section>
+
+</body>
+</html>
