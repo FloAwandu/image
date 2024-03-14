@@ -1,1 +1,1 @@
-# Imagelinks
+# ImageLinks
